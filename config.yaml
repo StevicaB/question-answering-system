@@ -1,0 +1,27 @@
+# Directory where all of the data is
+data_dir: 'data'
+
+# Directory that stores all of the lecture files
+lectures_dir: 'lectures'
+
+# All of the lecture files
+lectures: ['algorithms.txt',
+           'software_engineering.txt']
+
+# Mapping of the questions to the topic they belong to
+map_topics_questions_file: 'map_topics_questions.txt'
+
+# A file that contains the questions
+questions_file: 'questions-answers.txt'
+
+# A file that contains the answers
+answers_file: 'answers.txt'
+
+# The number of answer choices
+answer_letters: ['A', 'B', 'C', 'D']
+
+# Symbols that are filtered from each word
+removal_symbols : [':', ';', '.', ',', '!', '?', ')', '}', ']', '"',
+                   "'", '\n', '“', '(', '{', '[', '"', "'", '„']
+
+
